@@ -1,0 +1,139 @@
+{
+  "basePath": "/techradar",
+  "baseUrl": "https://michiel-vanherreweghe-axxit.github.io/techradar",
+  "editUrl": "https://github.com/michiel-vanherreweghe-axxit/techradar/edit/main/radar/{release}/{id}.md",
+  "logoFile": "logo.svg",
+  "jsFile": "",
+  "toggles": {
+    "showSearch": true,
+    "showChart": true,
+    "showTagFilter": true,
+    "showQuadrantList": true,
+    "showEmptyRings": false
+  },
+  "sections": [
+    "radar",
+    "tags",
+    "list"
+  ],
+  "colors": {
+    "foreground": "#fcf2e6",
+    "background": "#113521",
+    "highlight": "#d4a373",
+    "content": "#fff",
+    "text": "#575757",
+    "link": "#bc6c25",
+    "border": "rgba(255, 255, 255, 0.1)",
+    "tag": "rgba(255, 255, 255, 0.1)"
+  },
+  "quadrants": [
+    {
+      "id": "languages-and-frameworks",
+      "title": "Languages & Frameworks",
+      "description": "A selection of programming languages, alongside essential frameworks for building a variety of custom software.",
+      "color": "#a3b18a"
+    },
+    {
+      "id": "methods-and-patterns",
+      "title": "Methods & Patterns",
+      "description": "Key software development methods and design patterns, covering everything from continuous integration and testing to architecture.",
+      "color": "#588157"
+    },
+    {
+      "id": "platforms-and-operations",
+      "title": "Platforms & Operations",
+      "description": "Technologies and tools for software and infrastructure operations, including platforms and services for managing and scaling applications.",
+      "color": "#3f633e"
+    },
+    {
+      "id": "tools",
+      "title": "Tools",
+      "description": "A range of software tools, from simple productivity enhancers to comprehensive project solutions, catering to various project needs.",
+      "color": "#40713f"
+    }
+  ],
+  "rings": [
+    {
+      "id": "adopt",
+      "title": "Adopt",
+      "description": "Our default. Use it on new projects unless there is a good reason not to.",
+      "color": "#588157",
+      "radius": 0.5,
+      "strokeWidth": 5
+    },
+    {
+      "id": "trial",
+      "title": "Trial",
+      "description": "Used on a real project and worth pursuing. Use where you can handle the risk.",
+      "color": "#457b9d",
+      "radius": 0.69,
+      "strokeWidth": 3
+    },
+    {
+      "id": "assess",
+      "title": "Assess",
+      "description": "Worth exploring to understand how it could affect us. Not for production yet.",
+      "color": "#bc6c25",
+      "radius": 0.85,
+      "strokeWidth": 2
+    },
+    {
+      "id": "hold",
+      "title": "Hold",
+      "description": "Don't start anything new with it. Existing use is fine but plan to move away.",
+      "color": "#d62828",
+      "radius": 1,
+      "strokeWidth": 0.75
+    }
+  ],
+  "flags": {
+    "new": {
+      "color": "#f1235a",
+      "title": "New",
+      "titleShort": "N",
+      "description": "New in this version"
+    },
+    "changed": {
+      "color": "#40a7d1",
+      "title": "Changed",
+      "titleShort": "C",
+      "description": "Recently changed"
+    },
+    "default": {
+      "description": "Unchanged"
+    }
+  },
+  "chart": {
+    "size": 800,
+    "blipSize": 12
+  },
+  "social": [
+    {
+      "href": "https://github.com/michiel-vanherreweghe-axxit/techradar",
+      "icon": "github"
+    }
+  ],
+  "imprint": "https://www.axxit.be",
+  "labels": {
+    "title": "Axxit Technology Radar",
+    "imprint": "axxit.be",
+    "quadrant": "Quadrant",
+    "quadrantOverview": "Quadrant Overview",
+    "zoomIn": "Zoom in",
+    "filterByTag": "Filter by purpose",
+    "footer": "The Axxit Technology Radar, built on the open source AOE Technology Radar.",
+    "notUpdated": "This item was not updated in last three versions of the Radar. Should it have appeared in one of the more recent editions, there is a good chance it remains pertinent. However, if the item dates back further, its relevance may have diminished and our current evaluation could vary. Regrettably, our capacity to consistently revisit items from past Radar editions is limited.",
+    "notFound": "404 - Page not found",
+    "pageAbout": "How to use the Axxit Tech Radar",
+    "pageOverview": "Technologies Overview",
+    "pageSearch": "Search",
+    "searchPlaceholder": "What are you looking for?",
+    "metaDescription": "Technologies Axxit adopts, trials, assesses or holds."
+  },
+  "fuzzySearch": {
+    "threshold": 0.4,
+    "distance": 600,
+    "ignoreLocation": false,
+    "includeScore": true
+  }
+}
